@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Friends</title>
+	<link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css">
+	 <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container" ng-app="app">
+		<header ng-include="'templates/nav.html'"></header>
+    	<div ui-view></div>
+    	<footer ng-include="'templates/footer.html'" scope="" onload=""></footer>
+    </div>
+
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="app.js"></script>
+  <script src="controllers/home.js"></script>
+  <script src="controllers/about.js"></script>
+  <script src="services/friendsServ.js"></script>
+  <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+  <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+  <script src="bower_components/sass-bootstrap/js/button.js"></script>
+  <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+  <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+  <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+  <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+  <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+  <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+  <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+  <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+  <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+
+	<script src="controllers/friends.js"></script>
+
+</body>
+</html>
